@@ -53,8 +53,8 @@ Functions with increasing sharpness (i.e., decreasing Gaussian width) and adjust
 ### 3. Noise Perturbation
 
 For each f_l_i, we add Gaussian noise of two levels:
-	•	Low noise: σ = 0.05
-	•	High noise: σ = 0.10
+- Low noise: σ = 0.05
+- High noise: σ = 0.10
 
 The relative noise level is normalized by the function’s median.
 
@@ -64,12 +64,12 @@ The relative noise level is normalized by the function’s median.
 
 
 To evaluate the performance of learning algorithms upon the objective functions, we use:
-	•	Optimization method: Bayesian Optimization
-	•	Repeats: 100 runs per function
-	•	Steps per run: 100
-	•	Metrics:
-	•	Peak EF value: Best result found so far
-	•	Step to Peak: Iteration index at which peak was reached
+- Optimization method: Bayesian Optimization
+- Repeats: 100 runs per function
+- Steps per run: 100
+- Metrics
+- 	Peak EF value: Best result found so far
+-	Step to Peak: Iteration index at which peak was reached
  
 ---
 
