@@ -1,0 +1,64 @@
+﻿Case,Source,Metric,Value,Type,Dimensions,Comparison
+1,"Ament et al., 2021",AF,25,Computational,3,GP-IGU (integrated gradient uncertainty) vs. random search
+2,"Annevelink et al., 2022",AF,3,Computational,5,AutoMat-FUELS (forests with uncertainty estimates for learning sequentially) vs. random search
+3,"Annevelink et al., 2022",AF,15,Computational,10,AutoMat-FUELS vs. random search
+4,"Conrad et al., 2022",EF,1.6,Computational,25,"Combined AutoML frameworks (Auto-sklearn, H2O, Mljar & TPOT) vs. standard BO"
+5,"Jiang et al., 2022",EF,1.2,Computational,5,Quality diversity (QD) algorithm vs. random search
+6,"Jiang et al., 2022",AF,7.41,Computational,5,Quality diversity (QD) algorithm vs. random search
+7,"Kavalsky et al., 2023",EF,2.5,Computational,2,RF-maximum likelihood of improvement (MLE) vs. random search (no. of target compounds found)
+8,"Kavalsky et al., 2023",EF,3,Computational,2,RF-maximum likelihood of improvement (MLE) vs. random search (candidate distance to target window)
+9,"Lei et al., 2021",EF,2,Computational,10,BART (Bayesian additive regression trees) & BMARS (Bayesian multivariate adaptive regression splines) vs. standard BO
+10,"Lei et al., 2021",AF,8,Computational,10,BART (Bayesian additive regression trees) & BMARS (Bayesian multivariate adaptive regression splines) vs. standard BO
+11,"Lookman et al., 2019",AF,2,Computational,6,GP-EI vs. RF + EI
+12,"Nakayama et al., 2022",AF,1.3,Computational,1,GP-EI vs. human
+13,"Bai et al., 2023",EF,2.3,Experimental,5,BO-EI vs. random search
+14,"Bateni et al., 2024",AF,37.5,Experimental,9,GP-EI vs. LHS
+15,"Cakan et al., 2025",AF,2.5,Experimental,3,GP-EI vs. grid
+16,"Clara et al., 2025",EF,2,Experimental,4,BO-GP (batch size = 15) vs. BO-GP (batch size = 3)
+17,"Duros et al., 2017",EF,9,Experimental,4,Active learning (AL) algorithm vs. human & random search (space exploration)
+18,"Duros et al., 2017",AF,5,Experimental,4,AL algorithm vs. human & random search
+19,"Duros et al., 2017",EF,1.2,Experimental,4,AL algorithm vs. human & random search (crystallization model quality)
+20,"Epps et al., 2020",EF,3,Experimental,5,Ensemble neural network (NNE) based BO with pure expliotation (EPLT) with prior knowledge vs. NNE-UCB without prior knowledge  
+21,"Fatehi et al., 2023",AF,20,Experimental,4,GP-EI & GP-UCB vs. random search
+22,"Gongora et al., 2020",AF,18,Experimental,4,GP-EI vs. grid (best grid performance as reference)
+23,"Gongora et al., 2020",AF,56.25,Experimental,4,GP-EI vs. grid (best BO performance within a time budget as reference)
+24,"Gongora et al., 2021",AF,10,Experimental,4,GP-EI (FEA informed) vs. GP-EI (uninformative prior)
+25,"Grizou et al., 2020",EF,3.3,Experimental,6,Curiosity algorithm vs. random search (objective is space exploration)
+26,"Grizou et al., 2020",AF,7.8,Experimental,6,Curiosity algorithm vs. random search (objective is space exploration)
+27,"Liu et al., 2022",EF,2,Experimental,6,BO-UCB vs. LHS
+28,"Ros et al., 2024",AF,5,Experimental,6,GP-EI-Thompson sampling vs. random search
+29,"Sadeghi et al., 2024",EF,1.27,Experimental,7,GP-EI & GP-UCB & GP-EPLT vs. random search
+30,"Shields et al., 2021",EF,1.1,Experimental,10,Experimental Design via Bayesian Optimization (EDBO) vs. human
+31,"Shields et al., 2021",AF,1.7,Experimental,10,Experimental Design via Bayesian Optimization (EDBO) vs. human
+32,"Wu et al., 2025",AF,10,Experimental,7,Gryffin algorithm vs. random search
+33,"Borg et al., 2023",EF,7,Retrospective,3,RF-EI & RF-EV (expected value) vs. random search
+34,"Borg et al., 2023",AF,2,Retrospective,3,RF-EI & RF-EV vs. random search (identifying single target material)
+35,"Borg et al., 2023",AF,4,Retrospective,3,RF-EI & RF-EV vs. random search (identifying five target materials)
+36,"Dave et al., 2022",AF,1.3,Retrospective,3,Random search vs. human
+37,"Dave et al., 2022",AF,6,Retrospective,3,GP-MLE vs. random search
+38,"Gongora et al., 2021",EF,1.25,Retrospective,4,GP-EI (FEA informed) vs. GP-EI (uninformative prior)
+39,"Guay-Hottin et al., 2025",EF,1.45,Retrospective,4,α-πBO (GP-EI with dynamic hyperparameter tuning) vs. standard GP-EI
+40,"Guay-Hottin et al., 2025",AF,1.42,Retrospective,4,α-πBO (GP-EI with dynamic hyperparameter tuning) vs. standard GP-EI
+41,"Langner et al., 2020",AF,33,Retrospective,4,Bayesian neural network (BNN) vs. grid
+42,"Li et al., 2024",EF,1.1,Retrospective,4,BO-GP-Thompson sampling vs. random search
+43,"Liang et al., 2021",AF,2,Retrospective,4,GP-ARD (automatic relevance detection)-LCB vs. random search
+44,"Liang et al., 2021",AF,8,Retrospective,4,RF-LCB (lower confidence bound) vs. random search
+45,"Liang et al., 2021",AF,4,Retrospective,4,GP-LCB (lower confidence bound) vs. random search
+46,"Liu et al., 2022",AF,61,Retrospective,6,Standard BO & knowledge-constrained BO vs. LHS
+47,"Liu et al., 2022",EF,2.6,Retrospective,6,Standard BO & knowledge-constrained BO vs. factorial sampling with progressive grid subdivision (FS-PGS) & one-variable-at-at-time sampling (OVATS)
+48,"Liu et al., 2022",EF,10,Retrospective,6,Standard BO & knowledge-constrained BO vs. LHS
+49,"Lookman et al., 2019",AF,3,Retrospective,7,GP-EI vs. random search
+50,"Low et al., 2023",AF,5,Retrospective,8,qNEHVI (q-noisy expected hypervolume improvement) vs. U-NSGA-III (unified non-dominated sorting genetic algorithm III)
+51,"Low et al., 2023",AF,20,Retrospective,4,qNEHVI vs. U-NSGA-III
+52,"MacLeod et al., 2022",EF,2,Retrospective,4,qEHVI (q-expected hypervolume improvement) vs. random search
+53,"MacLeod et al., 2022",AF,100,Retrospective,4,qEHVI (q-expected hypervolume improvement) vs. random search
+54,"Rohr et al., 2020",EF,11,Retrospective,6,RF-UCB & GP-UCB vs. random search (all good catalysts)
+55,"Rohr et al., 2020",EF,2,Retrospective,6,RF-UCB & GP-UCB vs. random search (any good catalyst)
+56,"Rohr et al., 2020",AF,10,Retrospective,6,RF-UCB & GP-UCB vs. random search
+57,"Rohr et al., 2020",AF,5,Retrospective,6,LE (linear ensemble) vs. random search
+58,"Thelen et al., 2023",AF,5,Retrospective,4,GP-EI & GP-PI (probability of improvement) vs. random search
+59,"Thelen et al., 2023",AF,2,Retrospective,4,GP-UCB vs. random search
+60,"Vasudevan et al., 2021",EF,1.2,Retrospective,2,BO-GP vs. random search
+61,"Volk et al., 2023",EF,94,Retrospective,40,Reinforcement Learning with ensemble neural network regressor (ENN)-UCB vs. standard BO
+62,"Zhu et al., 2024",EF,1.1,Retrospective,4,EDBO & Hyperopt (BO with tree-structured parzen estimator) vs. random search
+63,"Ziomek et al., 2024",EF,1.2,Retrospective,4,Length scale balancing GP-UCB (LB-GP-UCB) vs. MLE & MCMC
